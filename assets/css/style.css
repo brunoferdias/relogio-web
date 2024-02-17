@@ -71,4 +71,28 @@ font-size: 60px;
 }
 
 
+/* Para telas Mobile */
+@media screen and (max-width: 600px) {
+    .relogio {
+        width: 90%;
 
+        align-items: center;
+        justify-content: space-around;
+        height: 200px;
+        
+    }
+
+    .relogio div {
+        height: 100px; 
+        width: 85px; 
+        margin-bottom: px; 
+    }
+
+    .relogio span {
+        font-size: 45px; 
+    }
+
+    .relogio span.tempo {
+        font-size: 8px; 
+    }
+}
